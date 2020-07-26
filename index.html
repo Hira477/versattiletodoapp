@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"> 
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+</head>
+<body style="background-color: black;">
+    
+    <div class="container"><br>
+        <h6 style="text-align: right;color: aliceblue;">Made by Hira Akram</h6>
+        <h1> Versatile ToDo APP</h1><br>
+       <div class="header">
+           <input type="text" id="todo_item" placeholder="Enter your task"></br><br>
+           <button type="text" id="butn" onclick="addtodo()">ADD ITEM</button>
+           <button type="text" id="butn" onclick="deleteAll()">Delete All</button>
+       </div>
+    </div>
+       <div class="content">
+           <ul id="list">
+            
+           </ul>
+       </div>
+       <script src="app.js"></script>
+       </body>
+       </html>
